@@ -1,4 +1,6 @@
-
+div {
+    display: block;
+}
 
 body {
     margin: 0;
@@ -24,8 +26,53 @@ header {
     align-items: center;
 }
 
+#mission {
+    height: 700px;
+    background-image: url(../images/img-mission-background.jpg);
+    padding-top: 70px;
+}
+
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
 a {
     color: seashell;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    font-weight: bold;
 }
 
 nav {
@@ -33,8 +80,72 @@ nav {
     flex-grow: 1;
 }
 
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.item {
+    padding: 5px;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+#store {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#locations {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 70px;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+#contact {
+    height: 200px;
 }
